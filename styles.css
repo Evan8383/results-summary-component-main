@@ -111,6 +111,12 @@ button{
     width: 100%;
     color: white;
     padding: 15px;
+    transition: all 300ms ease-in-out;
+}
+button:hover{
+    cursor: pointer;
+    background-color: hsl(252, 100%, 67%);
+    background-image: linear-gradient(180deg,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
 }
 
 @media (min-width: 700px) {
