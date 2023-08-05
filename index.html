@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Konkhmer+Sleokchher&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+
+<!-- Mobile First Markup. Class names based on mobile layout. -->
+<body>
+<div class="container">
+  <div class="content-card">
+      <header class="header-container">
+        <div class="header-card">
+          <h1>Your Result</h1>
+          <section class="score-section">
+            <p class="score-of">76</p>
+            <p class="score-out-of">of 100</p>
+          </section>
+          <h2 class="score-response">Great</h2>
+          <h3 class="score-summary">You scored higher than 65% of the people who have taken these tests.</h3>
+        </div>
+      </header>
+
+      <main class="main-container">
+        <div class="main-card">
+          <h1>Summary</h1>
+          <ul class="result-details">
+            <li class="reaction">
+              <img src="assets/images/icon-reaction.svg">
+              <p class="attribute">Reaction</p>
+              <p class="score">80 <span>/ 100</span></p>
+            </li>
+
+            <li class="memory">
+              <img src="assets/images/icon-memory.svg">
+              <p class="attribute">Memory</p>
+              <p class="score">92 <span>/ 100</span></p>
+            </li>
+
+            <li class="verbal">
+              <img src="assets/images/icon-verbal.svg">
+              <p class="attribute">Verbal</p>
+              <p class="score">61 <span>/ 100</span></p>
+            </li>
+
+            <li class="visual">
+              <img src="assets/images/icon-visual.svg">
+              <p class="attribute">Visual</p>
+              <p class="score">72 <span>/ 100</span></p>
+            </li>
+          </ul>
+          <div class="button">
+            <button>Continue</button>
+          </div>    
+       </div>
+      </main>
+  </div>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Evan8383">Evan Bennett</a>.
+  </div>
+</body>
+</html>
